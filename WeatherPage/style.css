@@ -1,0 +1,151 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#06283D;
+}
+.search-box{
+    position: relative;
+    width: 400px;
+    height: min-content;
+    background-color: white ;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s ease-out;
+}
+.search-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+    height: min-content;
+}
+
+.search-content i {
+    font-size: 24px;
+}
+.search-content input{
+    display: block;
+    height: 20px;
+    width: 80%;
+    border: 0px;
+    outline: none;
+    text-transform:uppercase ;
+    font-size: 20px;
+}
+.search-content button{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: #06283D;
+    color: white;
+    cursor: pointer;
+
+}
+.search-content button:active{
+    background-color: #40771e;
+}
+.weather-box{
+    display: none;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+.weather-box img {
+    width: 60%;
+}
+.temperature-box{
+    justify-content: center;
+    display: flex;
+    font-size: 1.4rem;
+}
+#temperature{
+    position: relative;
+}
+#descripiton{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+.details{
+    display: none;
+}
+.weather-details{
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: min-content;
+}
+
+.wind i, .humidity i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.text{
+    display: flex;
+    align-self: center;
+    box-sizing: border-box;
+    height: 60px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.text p{
+    display: flex;
+    align-items: center;
+    
+}
+#wind-speed, #humidity{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.css1{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.not-found{
+    box-sizing: border-box;
+    padding: 20px;
+    display: none;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+.fadeIn{
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+

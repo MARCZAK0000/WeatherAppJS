@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Document</title>
+</head>
+<body>
+    <div class="cointener">
+        <div class="search-box">
+            <div class="search-content">
+                <i class="fa-solid fa-location-dot"></i>
+                <input id = "Search"  type="text" placeholder="Enter Your Location">
+                <button id = "search-button" class="fa-solid fa-magnifying-glass"></button>
+            </div>
+
+            <div class="not-found">
+                <img src="/Pages/WeatherPage/images/404.png" alt="">
+                <p>Not Found</p>
+            </div>
+            <div class="weather-box">
+                <img src="/Pages/WeatherPage/images/cloud.png" alt="">
+                <div class="temperature-box">
+                    <p id="temperature"></p>
+                    <p class="center">°C</p>
+                </div >
+                <p id="descripiton">descripiton</p>
+                
+            </div>
+            <div class="details">
+                <div class="weather-details">
+                    <div class="humidity css1">
+                        <i class="fa-solid fa-water"></i>
+                        <div class="text">
+                            <span id = "humidity">Hello</span>
+                            <p>%</p>
+                        </div>
+                    </div>
+                    <div class="wind css1">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                            <span id="wind-speed">Hello</span>
+                            <p>KM/H</p>
+                        </div>
+                    </div>
+                </div>
+            </di >
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f270532b78.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</html>
